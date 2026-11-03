@@ -1,0 +1,37 @@
+{
+  "seed": 20261022,
+  "period": {
+    "start": "2026-01-01",
+    "end": "2026-12-31"
+  },
+  "row_counts": {
+    "instrument_type": 8,
+    "asset": 2000,
+    "supplier": 20,
+    "calibration_plan": 2000,
+    "calibration_event": 5000,
+    "certificate": 4476,
+    "work_order": 524,
+    "production_use": 100000,
+    "alert": 0,
+    "audit_record": 112000
+  },
+  "validations": {
+    "asset_count_is_2000": true,
+    "calibration_count_is_5000": true,
+    "production_use_count_is_100000": true,
+    "asset_ids_unique": true,
+    "calibration_ids_unique": true,
+    "production_use_ids_unique": true,
+    "asset_type_foreign_keys_valid": true,
+    "calibration_asset_foreign_keys_valid": true,
+    "calibration_plan_foreign_keys_valid": true,
+    "calibration_supplier_foreign_keys_valid": true,
+    "certificate_asset_matches_calibration": true,
+    "calibration_due_dates_derived_from_plan": true,
+    "every_failed_calibration_has_work_order": true,
+    "ground_truth_has_four_cases": true
+  },
+  "all_validations_passed": true,
+  "note": "Anomaly scenarios are stored separately in anomaly_fixtures and ground_truth."
+}

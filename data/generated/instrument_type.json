@@ -1,0 +1,50 @@
+[
+  {
+    "instrument_type_id":1,
+    "type_name":"Pressure Gauge",
+    "description":"Synthetic pressure gauge instrument type",
+    "created_at":"2026-01-01 00:00:00"
+  },
+  {
+    "instrument_type_id":2,
+    "type_name":"Temperature Sensor",
+    "description":"Synthetic temperature sensor instrument type",
+    "created_at":"2026-01-01 00:00:00"
+  },
+  {
+    "instrument_type_id":3,
+    "type_name":"Digital Multimeter",
+    "description":"Synthetic digital multimeter instrument type",
+    "created_at":"2026-01-01 00:00:00"
+  },
+  {
+    "instrument_type_id":4,
+    "type_name":"Flow Meter",
+    "description":"Synthetic flow meter instrument type",
+    "created_at":"2026-01-01 00:00:00"
+  },
+  {
+    "instrument_type_id":5,
+    "type_name":"Weighing Scale",
+    "description":"Synthetic weighing scale instrument type",
+    "created_at":"2026-01-01 00:00:00"
+  },
+  {
+    "instrument_type_id":6,
+    "type_name":"Torque Wrench",
+    "description":"Synthetic torque wrench instrument type",
+    "created_at":"2026-01-01 00:00:00"
+  },
+  {
+    "instrument_type_id":7,
+    "type_name":"pH Meter",
+    "description":"Synthetic ph meter instrument type",
+    "created_at":"2026-01-01 00:00:00"
+  },
+  {
+    "instrument_type_id":8,
+    "type_name":"Vernier Caliper",
+    "description":"Synthetic vernier caliper instrument type",
+    "created_at":"2026-01-01 00:00:00"
+  }
+]

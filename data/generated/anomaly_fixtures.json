@@ -1,0 +1,38 @@
+[
+  {
+    "case_id":"ANOM-001",
+    "issue_type":"DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "entity_name":"calibration_event",
+    "entity_id":"CAL-AST-000001-2026-000001",
+    "field_name":"due_date",
+    "baseline_value":"2027-03-17",
+    "anomalous_value":"2027-03-18"
+  },
+  {
+    "case_id":"ANOM-002",
+    "issue_type":"EXPIRED_INSTRUMENT_USED_WITHOUT_EXCEPTION",
+    "entity_name":"production_use",
+    "entity_id":"USE-AST-000845-20260730064859",
+    "field_name":"use_start",
+    "baseline_value":"2026-07-30 06:48:59",
+    "anomalous_value":"2026-12-31 23:59:00"
+  },
+  {
+    "case_id":"ANOM-003",
+    "issue_type":"CERTIFICATE_REFERS_TO_ANOTHER_ASSET",
+    "entity_name":"certificate",
+    "entity_id":"CERT-CAL-AST-000002-2026-000002",
+    "field_name":"asset_id",
+    "baseline_value":"AST-000002",
+    "anomalous_value":"AST-000001"
+  },
+  {
+    "case_id":"ANOM-004",
+    "issue_type":"FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "entity_name":"calibration_event",
+    "entity_id":"CAL-AST-000001-2026-000001",
+    "field_name":"impact_assessment_status",
+    "baseline_value":"COMPLETED",
+    "anomalous_value":null
+  }
+]

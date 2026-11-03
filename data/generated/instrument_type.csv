@@ -1,0 +1,9 @@
+instrument_type_id,type_name,description,created_at
+1,Pressure Gauge,Synthetic pressure gauge instrument type,2026-01-01 00:00:00
+2,Temperature Sensor,Synthetic temperature sensor instrument type,2026-01-01 00:00:00
+3,Digital Multimeter,Synthetic digital multimeter instrument type,2026-01-01 00:00:00
+4,Flow Meter,Synthetic flow meter instrument type,2026-01-01 00:00:00
+5,Weighing Scale,Synthetic weighing scale instrument type,2026-01-01 00:00:00
+6,Torque Wrench,Synthetic torque wrench instrument type,2026-01-01 00:00:00
+7,pH Meter,Synthetic ph meter instrument type,2026-01-01 00:00:00
+8,Vernier Caliper,Synthetic vernier caliper instrument type,2026-01-01 00:00:00

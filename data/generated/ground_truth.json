@@ -1,0 +1,30 @@
+[
+  {
+    "case_id":"ANOM-001",
+    "issue_type":"DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "entity_name":"calibration_event",
+    "entity_id":"CAL-AST-000001-2026-000001",
+    "ground_truth":1
+  },
+  {
+    "case_id":"ANOM-002",
+    "issue_type":"EXPIRED_INSTRUMENT_USED_WITHOUT_EXCEPTION",
+    "entity_name":"production_use",
+    "entity_id":"USE-AST-000845-20260730064859",
+    "ground_truth":1
+  },
+  {
+    "case_id":"ANOM-003",
+    "issue_type":"CERTIFICATE_REFERS_TO_ANOTHER_ASSET",
+    "entity_name":"certificate",
+    "entity_id":"CERT-CAL-AST-000002-2026-000002",
+    "ground_truth":1
+  },
+  {
+    "case_id":"ANOM-004",
+    "issue_type":"FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "entity_name":"calibration_event",
+    "entity_id":"CAL-AST-000001-2026-000001",
+    "ground_truth":1
+  }
+]
