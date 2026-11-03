@@ -83,7 +83,19 @@ def list_assessments(connection, search=None, status=None, limit=100, offset=0):
 
         total = cursor.fetchone()["total"]
 
-        return {"total": total, "records": records}
+        cursor.execute("""
+            SELECT COUNT(*) AS draft_total
+            FROM impact_assessment
+            WHERE assessment_status = 'DRAFT'
+        """)
+
+        draft_total = cursor.fetchone()["draft_total"]
+
+        return {
+            "total": total,
+            "draft_total": draft_total,
+            "records": records
+        }
 
     finally:
         cursor.close()

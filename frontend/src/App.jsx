@@ -5,7 +5,7 @@ import CalibrationPlanManagement from "./CalibrationPlanManagement";
 import CertificateManagement from "./CertificateManagement";
 import ProductionUseManagement from "./ProductionUseManagement";
 import ImpactAssessmentManagement from "./ImpactAssessmentManagement";
-const API_URL = "/api/compliance/checks?as_of_date=2026-11-02";
+const API_URL = "/api/compliance/checks";
 
 function MetricCard({ label, value, note, tone = "neutral" }) {
   return (

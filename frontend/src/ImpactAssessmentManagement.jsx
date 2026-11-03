@@ -12,6 +12,7 @@ const categories = [
 export default function ImpactAssessmentManagement() {
   const [records, setRecords] = useState([]);
   const [total, setTotal] = useState(0);
+  const [draftTotal, setDraftTotal] = useState(0);
   const [search, setSearch] = useState("");
   const [status, setStatus] = useState("");
   const [page, setPage] = useState(0);
@@ -62,6 +63,7 @@ export default function ImpactAssessmentManagement() {
 
       setRecords(data.records || []);
       setTotal(data.total || 0);
+      setDraftTotal(data.draft_total || 0);
     } catch (err) {
       setError(err.message);
     } finally {
@@ -195,7 +197,7 @@ export default function ImpactAssessmentManagement() {
         <div className="summary-card">
           <span>Draft Assessments</span>
           <strong>
-            {records.filter(r => r.assessment_status === "DRAFT").length}
+            {draftTotal}
           </strong>
         </div>
       </div>
